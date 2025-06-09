@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: #f0f4f8;
+  color: #333;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Created By Yash kumar Banjare...   */
+h1 {
+  margin-bottom: 30px;
+}
+
+.header-stopwatch-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* Created By Yash kumar Banjare...   */
+.header-stopwatch-row h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+
+
+/* Created By Yash kumar Banjare...   */
+
+.stopwatch {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: default;
+  margin-right: 10px;
+}
+
+.stopwatch:hover {
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+/* Created By Yash kumar Banjare...   */
+.outer-box {
+  border: 3px solid #007bff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.outer-box:hover {
+  box-shadow: 0 12px 35px rgba(0, 123, 255, 0.35);
+}
+/* Created By Yash kumar Banjare...   */
+.time-display {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+/* Created By Yash kumar Banjare...   */
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 70px;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+/* Created By Yash kumar Banjare...   */
+button:disabled {
+  background-color: #a1a1a1;
+  cursor: not-allowed;
+}
+
+.laps {
+  max-height: 200px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.lap {
+  border-bottom: 1px solid #eee;
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lap-number {
+  font-weight: bold;
+  color: #555;
+}
+/* Created By Yash kumar Banjare...   */
