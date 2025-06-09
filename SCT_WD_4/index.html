@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Created By Yash kumar Banjare... -->
+  <header>
+    <h1>📝 My To-Do List</h1>
+    <!-- <p>Stay productive and on track</p> -->
+  </header>
+
+  <main>
+    <section class="task-form">
+      <input type="text" id="taskText" placeholder="Enter your task">
+      <input type="datetime-local" id="taskDateTime">
+      <button onclick="addTask()">Add Task</button>
+    </section>
+    <!-- Created By Yash kumar Banjare... -->
+
+    <!-- 🔍 Filter Section -->
+    <section class="filter-section">
+      <h3>Filter Tasks</h3>
+      <button onclick="filterTasks('all')">All</button>
+      <button onclick="filterTasks('completed')">Completed</button>
+      <button onclick="filterTasks('pending')">Pending</button>
+    </section>
+
+    <!-- 📊 General Info Section -->
+    <section class="info-section">
+      <p>Total: <span id="totalCount">0</span> |
+         Completed: <span id="completedCount">0</span> |
+         Pending: <span id="pendingCount">0</span>
+      </p><!-- Created By Yash kumar Banjare... -->
+    </section>
+
+    <section class="task-section">
+      <h2>📋 Task List</h2>
+      <ul id="taskList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 To-Do App by Yash Banjare</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+ <!-- Created By Yash kumar Banjare... -->

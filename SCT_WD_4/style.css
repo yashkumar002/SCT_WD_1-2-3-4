@@ -1,0 +1,172 @@
+/* General Styles */
+
+/* Make the page take full height and push footer to bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* Optional: wrap all content (except footer) in a main container */
+main {
+  flex: 1;
+}
+
+/* Created By Yash kumar Banjare... */
+
+/* Filter Section */
+.filter-section {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.filter-section button {
+  padding: 8px 16px;
+  margin: 5px;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-section button:hover {
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+  transform: scale(1.05);
+}
+/* Created By Yash kumar Banjare... */
+
+/* Info Section */
+.info-section {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: #333;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #d0eafc, #f5d0fc);
+  color: #333;
+}
+/* Created By Yash kumar Banjare... */
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border-bottom: 5px solid #ffffff55;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+/* Created By Yash kumar Banjare... */
+header p {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+/* Task Form Section */
+.task-form {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* Created By Yash kumar Banjare... */
+.task-form input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.task-form button:hover {
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  transform: scale(1.05);
+}/* Created By Yash kumar Banjare... */
+
+/* Task List Section */
+.task-section {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-section h2 {
+  text-align: center;
+  color: #444;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}/* Created By Yash kumar Banjare... */
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #3d0ae3, #465efb);
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}
+/* Created By Yash kumar Banjare... */
+.task-item.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-item button {
+  margin-left: 6px;
+  padding: 6px 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s;
+}
+/* Created By Yash kumar Banjare... */
+.task-item button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #eee;
+  margin-top: 30px;
+}
+
+ /* Created By Yash kumar Banjare... */
