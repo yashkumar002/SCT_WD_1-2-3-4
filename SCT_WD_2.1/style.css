@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(120deg, #8629dd, #8ec5fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+/* Created By Yash kumar Banjare... */ 
+.calculator {
+  background: linear-gradient(135deg, #1613ae, #38f9d7);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+/* Created By Yash kumar Banjare... */ 
+#display {
+  width: 95%;
+  height: 60px;
+  font-size: 26px;
+  margin-bottom: 15px;
+  padding: 12px;
+  text-align: right;
+  border: none;
+  border-radius: 8px;
+  background: #ffffffcc;
+  color: #333;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #ffffff, #d4d4d4);
+  color: #333;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Created By Yash kumar Banjare... */ 
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+  background: linear-gradient(145deg, #fcb045, #fd1d1d);
+  color: white;
+}
+
+.operator:hover {
+  box-shadow: 0 6px 12px rgba(253, 29, 29, 0.5);
+}
+/* Created By Yash kumar Banjare... */ 
+.equal {
+  grid-column: span 4;
+  background: linear-gradient(145deg, #00c9ff, #92fe9d);
+  color: white;
+  font-weight: bold;
+}
+
+.equal:hover {
+  box-shadow: 0 6px 14px rgba(0, 201, 255, 0.5);
+}
+
+/* Created By Yash kumar Banjare... */ 
